@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "node ./node_modules/mocha/bin/mocha --config .mocharc.yml"
   },
   "keywords": [],
   "author": "",
@@ -17,5 +17,8 @@
   },
   "dependencies": {
     "faker": "^5.5.3"
+  },
+  "directories": {
+      "test": "test"
   }
 }
